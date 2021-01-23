@@ -19,7 +19,7 @@ document.getElementById("submit").addEventListener("click", () => {
     let letter = document.getElementById("input").value;
     letter = letter.toLowerCase();
     document.getElementById("input").value = "";
-    letters += letter;
+    letters += letter[0];
     temp = "";
     for (let i = 0; i < word.length; i++)
     {
