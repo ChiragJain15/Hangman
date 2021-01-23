@@ -1,3 +1,4 @@
+"use strict";
 const words = ["awkward", "blizzard", "minecraft", "valorant", "clash of clans"];
 const word = words[Math.floor(Math.random() * words.length)];
 const bodyParts = [document.getElementById("head"),document.getElementById("waist"),document.getElementById("left_arm"),document.getElementById("right_arm"),document.getElementById("left_leg"),document.getElementById("right_leg")]
