@@ -16,7 +16,8 @@ for (let i = 0; i < word.length; i++)
 }
 document.getElementById("container-word").innerHTML = temp;
 document.getElementById("submit").addEventListener("click", () => { 
-    const letter = document.getElementById("input").value;
+    let letter = document.getElementById("input").value;
+    letter = letter.toLowerCase();
     document.getElementById("input").value = "";
     letters += letter;
     temp = "";
@@ -36,5 +37,5 @@ document.getElementById("submit").addEventListener("click", () => {
     if(word === temp)
         alert("YOU WON REFRESH TO PLAY AGAIN");
     if (life == 0)
-        alert("GAME OVER YOU LOST REFRESH TO PLAY AGAIN");
+        alert(`Game over the word was ${word} you lost refresh to play again`);
  });
