@@ -1,5 +1,5 @@
 "use strict";
-const words = ["awkward", "blizzard", "minecraft", "valorant", "clash of clans"];
+const words = ["pk", "karz", "dhoom", "tanu weds manu", "sholay", "student of the year", "flying jatt", "hera pheri", "boss", "sanju","hindi medium", "stree", "dangal", "zero","sultan", "kabir singh"];
 const word = words[Math.floor(Math.random() * words.length)];
 const bodyParts = [document.getElementById("head"),document.getElementById("waist"),document.getElementById("left_arm"),document.getElementById("right_arm"),document.getElementById("left_leg"),document.getElementById("right_leg")]
 let life = 6;
