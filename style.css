@@ -122,12 +122,32 @@ main {
     outline: none;
 }
 
-@media screen and (max-width: 700px){
+@media screen and (max-height: 700px),(max-width: 700px){
     .container-word {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     header h1{
-        padding: 1.5rem;
+        padding: 1rem;
     }
-
+    #left_arm,
+    #left_leg {
+      width: 3rem;
+      height: 0.2rem;
+    }
+    #right_arm,
+    #right_leg {
+      width: 3rem;
+      height: 0.2rem;
+    }
+    #head {
+      width: 4rem;
+      height: 4rem;
+    }
+    #waist {
+      width: 0.2rem;
+      height: 5rem;
+    }
+    #input {
+      font-size: 2rem;
+    }
 }
